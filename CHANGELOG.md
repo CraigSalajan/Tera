@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 2025-01-04
+
+### Added
+- **Auto-update system**: Tera can now check for and install updates automatically
+  - Checks for updates on startup and periodically (configurable)
+  - "Check For Updates" command in Ctrl+P palette
+  - Update notification dialog with options to update, dismiss, or skip version
+  - Uses GitHub releases as the update source
+- Update configuration options in config file:
+  - `check_on_startup`: Enable/disable automatic update checks (default: true)
+  - `check_interval_hours`: How often to check while running (default: 24)
+
+### Changed
+- Release asset naming now uses Rust target triples for cross-platform update compatibility
+
+## [0.0.2] - 2025-01-03
+
 ### Added
 - Initial public release
 - Cross-platform terminal emulator (Windows, macOS, Linux)
