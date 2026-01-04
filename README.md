@@ -33,7 +33,7 @@ curl -LO https://github.com/YOURORG/tera-releases/releases/latest/download/tera-
 tar -xzf tera-x.x.x-macos-x64.tar.gz
 
 # Move to Applications (optional)
-sudo mv tera /usr/local/bin/
+sudo mv tera /Applications/
 
 # Run
 tera
@@ -46,7 +46,7 @@ curl -LO https://github.com/YOURORG/tera-releases/releases/latest/download/tera-
 tar -xzf tera-x.x.x-macos-arm64.tar.gz
 
 # Move to Applications (optional)
-sudo mv tera /usr/local/bin/
+sudo mv tera /Applications/
 
 # Run
 tera
